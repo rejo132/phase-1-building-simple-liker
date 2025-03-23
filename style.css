@@ -43,10 +43,8 @@ article.media-post > footer ul {
   border-radius: 10px;
   background-color: maroon;
   color: white;
-
   margin: 1em;
   padding: 1em;
-
   position: fixed;
   top: 0;
   left: 0;
@@ -62,5 +60,5 @@ article.media-post > footer ul {
 }
 
 .hidden {
-  visibility: hidden;
+  display: none; /* Changed from visibility: hidden */
 }
